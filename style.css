@@ -1,0 +1,44 @@
+  
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+}
+input{
+    height: 2rem;
+    width: 15rem;
+    display: block;
+    margin: 1rem;
+    font-size: 1rem;
+}
+button{
+    height: 2rem;
+    width: 15rem;
+    display: block;
+    margin: 1rem;
+    border: none;
+    outline: none;
+    background-color: steelblue;
+    color: white;
+}
+button:hover{
+    background-color: #26A69A;
+}
+button:disabled{
+    color: black;
+    background-color: lightgray;
+}
